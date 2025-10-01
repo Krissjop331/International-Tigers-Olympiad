@@ -1,0 +1,42 @@
+# === Node / Next.js ===
+node_modules/
+.pnp/
+.pnp.*
+.next/
+out/
+dist/
+.next/static/
+.next/cache/
+.next/trace
+.next/trace*
+.next/types
+next-env.d.ts
+*.tsbuildinfo
+
+# === Logs ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# === Env ===
+.env
+.env.*
+!.env.example
+
+# === OS / Editors ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# === Testing / Coverage ===
+coverage/
+
+# === Build / Deploy ===
+.vercel/
+.sentry/
